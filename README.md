@@ -1,12 +1,12 @@
-# 🛡️ OpenScreen
+# 🛡️ OpenSanitize
 
 **Advanced Privacy Scrubbing for Screen Parsing and Action Models**
 
-OpenScreen is a dedicated module designed to detect and scrub PII/PHI data from screen captures and action logs, enhancing privacy across applications like [OpenAdapt](https://github.com/OpenAdaptAI/OpenAdapt) and [OpenAdapter](https://github.com/OpenAdaptAI/OpenAdapter/). This tool integrates with deployment frameworks to ensure data protection in automation and screen parsing workflows.
+OpenSanitize is a dedicated module designed to detect and scrub PII/PHI data from screen captures and action logs, enhancing privacy across applications like [OpenAdapt](https://github.com/OpenAdaptAI/OpenAdapt) and [OpenAdapter](https://github.com/OpenAdaptAI/OpenAdapter/). This tool integrates with deployment frameworks to ensure data protection in automation and screen parsing workflows.
 
 ## ✨ Features
 - **PII/PHI Detection and Scrubbing**: Identify and remove sensitive data from screen and action inputs using state-of-the-art privacy tools.
-- **Powerful Privacy Stack**: OpenScreen includes integrations with [Microsoft Presidio](https://microsoft.github.io/presidio/) for identifying and redacting PII entities, [Private AI](https://private-ai.com/) for customizable and GDPR-compliant scrubbing, and [AWS Comprehend](https://aws.amazon.com/comprehend/) for natural language processing to enhance data protection.
+- **Powerful Privacy Stack**: OpenSanitize includes integrations with [Microsoft Presidio](https://microsoft.github.io/presidio/) for identifying and redacting PII entities, [Private AI](https://private-ai.com/) for customizable and GDPR-compliant scrubbing, and [AWS Comprehend](https://aws.amazon.com/comprehend/) for natural language processing to enhance data protection.
 - **Flexible Integration**: Supports OpenAdapt and OpenAdapter for end-to-end privacy in screen-based automation.
 - **Efficient Processing**: Streamlined for low latency in high-frequency applications.
 
