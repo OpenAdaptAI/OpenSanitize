@@ -19,8 +19,8 @@ OpenScreen is a dedicated module designed to detect and scrub PII/PHI data from 
 ### Installation
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/OpenAdaptAI/OpenScreen.git
-   cd OpenScreen
+   git clone https://github.com/OpenAdaptAI/OpenSanitize.git
+   cd OpenSanitize
    ```
 2. **Set up virtual environment and install dependencies**:
    ```bash
@@ -30,16 +30,16 @@ OpenScreen is a dedicated module designed to detect and scrub PII/PHI data from 
 
 ## 💡 Usage Example
 
-Use OpenScreen to scrub sensitive data from screen logs before processing:
+Use OpenSanitize to scrub sensitive data from screen logs before processing:
 ```python
-from openscreen import ScreenScrubber
+from opensanitize import ScreenScrubber
 
 scrubber = ScreenScrubber()
 cleaned_data = scrubber.scrub(screenshot_data, action_data)
 ```
 
 ## 🔒 Security
-OpenScreen complies with privacy standards for PII/PHI handling and is optimized for healthcare and enterprise deployments.
+OpenSanitize complies with privacy standards for PII/PHI handling and is optimized for healthcare and enterprise deployments.
 
 ## 🛠️ Roadmap
 - **Expanded Scrubbing Patterns**: Add support for custom scrubbing patterns.
@@ -47,4 +47,4 @@ OpenScreen complies with privacy standards for PII/PHI handling and is optimized
 - **Modular Expansion**: Extend compatibility with additional OpenAdapt tools.
 
 ## License
-OpenScreen is licensed under the MIT License.
+OpenSanitize is licensed under the MIT License.
